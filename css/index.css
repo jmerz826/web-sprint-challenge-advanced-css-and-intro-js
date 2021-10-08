@@ -155,5 +155,6 @@ button:hover{
     .title-container div {
         height:40vh;
         background-size: 200%;
+        margin-bottom: 0;
     }
 }
