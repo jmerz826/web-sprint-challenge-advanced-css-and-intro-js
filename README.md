@@ -23,10 +23,24 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+A: Accessibility on the web is making the webpage, and its contents, as viewable and as usable to as many people as possible.  Accessibility design takes into account any particular device the site may be viewed on (mobile, desktop, tablet, etc.), as well as any impairments an individual may have, such as trouble seeing small font, color-blindness, deafness, etc.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+To ensure accessibility, you can alter your design layout for different sized devices (mobile, desktop, tablet, etc.), so that your site's content is usable across all platforms.  You can also be sure to use high-contrast colors, which aids those that have difficulty differentiating color (color-blind).  Finally, you should make your site scalable! If someone needs to zoom in to see something, the whole site shouldn't look like it got thrown in a blender; using a fixed design creates a very messy page should someone alter the viewport.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is essentially a keyword, for your use, that stores data.
+
 4. What is the purpose of using functions in code?
+
+Functions allow us to repeat tasks.  While this seems trivial, it is so important, as hard-coding large projects would be near-impossible.
+
 5. How do you access a key inside of an object inside of an array?
+
+Assuming you'd like to change the key's value (question is a bit ambiguous): arrayOfObjects[indexOfDesiredKey]['key']
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
