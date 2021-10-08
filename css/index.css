@@ -20,6 +20,10 @@ font: inherit;
 vertical-align: baseline;  
 }
 /*GENERAL STYLES*/
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
 html{
     font-size:62.5%;
 }
@@ -133,4 +137,23 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+@media(max-width:500px){
+    nav{
+        width:40%;
+    }
+    nav a{
+        font-size: 80%;
+    }
+    h1{
+        font-size: 200%;
+    }
+    button{
+        font-size: 80%;
+    }
+    .title-container div {
+        height:40vh;
+        background-size: 200%;
+    }
 }
